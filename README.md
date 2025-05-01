@@ -20,7 +20,7 @@ Move Right - Right Arrow, D
 
 Your game settings will likely look something like this:
 
-```{"groundspeed":2.5,"jumpheight":6,"gravity":-0.35,"pipedistance":13,"pipespacing":60,"pipeychange":40,"tiltmin":0,"tiltmax":0,"horizontalmode":0,"birdspeed":1,"birddrag":0.8,"movementtype":1}```
+```{"groundspeed":2.5,"jumpheight":6,"gravity":-0.35,"pipedistance":13,"pipespacing":60,"pipeychange":40,"tiltmin":0,"tiltmax":0,"horizontalmode":0,"birdspeed":1,"birddrag":0.8,"pipewidth":"100","movementtype":1}```
 
 groundspeed - How fast the ground moves.
 
@@ -43,5 +43,7 @@ horizontalmode - Set to 1 to enable Horizontal Mode, where the bird can also mov
 birdspeed - How fast the bird moves horizontally.
 
 birddrag - How fast the bird slows down horizontally.
+
+pipewidth - How wide the pipe is, as a percentage of normal.
 
 movementtype - Changes how the bird moves. 1 - Normal 2 - Dart 3 - Ship 4 - Swingcopter
